@@ -1,0 +1,67 @@
+body{
+
+    background-color: black;
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+button{
+
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+}
+
+.transparente{
+
+    background-color:transparent;
+    color: #fff;
+    border: 4px  dotted #f0f0f0;
+
+}
+
+.transparente:hover{
+
+    color: #6e6e6e;
+    border: 7px dotted  #6e6e6e;
+
+}
+
+.gradiente{
+
+
+    background: linear-gradient( to right, green, orange);
+
+    transition: transform 2s;
+}
+
+
+.gradiente:hover{
+
+    transform: scale(3);
+}
+
+.sombra{
+    box-shadow: 0 6px 8px green;   
+}
+
+.icone{
+
+    background-color: transparent;
+    font-size: 35px;
+    transition: transform 2s;
+}
+
+
+.icone:hover{
+
+transform: translateY(-500px) rotate(10000deg);
+
+}
